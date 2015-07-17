@@ -9,7 +9,7 @@ CHIP Or {
     OUT out;
 
     PARTS:
-    Not(in=a,out=not1Out);
-	Not(in=b,out=not2Out);
-	Nand(a=not1Out,b=not2Out,out=out);
+    	Not(in=a,out=not1Out);
+    	Not(in=b,out=not2Out);
+    	Nand(a=not1Out,b=not2Out,out=out);
 }
